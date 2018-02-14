@@ -73,6 +73,15 @@ while(i < tvShows.length){
 
 */
 
+var i = 1;
+
+while(i <= 9){
+
+	product = i * 3;
+	console.log(i + " x 3 = " + product);
+	i++;
+}
+
 
 
 
