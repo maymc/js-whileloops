@@ -82,10 +82,6 @@ while(i <= 9){
 	i++;
 }
 
-
-
-
-
 /*5. Multiples of 3 and 5. Create a while loop that will loop through 100 numbers. Your job is to program the following:
 
  a) if the number is a multiple of 3, it should print "dev"
@@ -112,6 +108,22 @@ devleague homie!
 ...
 ...
 ...*/
+
+var i = 0;
+
+while(i<=100){
+
+	if(i%3 === 0 && i%5 === 0)
+		console.log("devleague homie!");
+	else if(i%3 === 0)
+		console.log("dev");
+	else if(i%5 === 0)
+		console.log("league");
+	else
+		console.log(i);
+
+	i++;
+}
 
 
 /*
